@@ -96,6 +96,7 @@ a {
     /* border: 1px solid red; */
     padding: 60px;
     align-items: center;
+    display: flex;
 }
 .doc-img{
     width: 200px;
@@ -104,12 +105,15 @@ a {
     padding: 50px;
     top: -10px;
     border-radius: 20px;
+    align-items: center;
 }
 .icon-blue{
     width: 30px;
     height: 30px;
     background-color: azure;
     align-items: center;
+    justify-content: center;
+    display: flex;
     border-radius: 5px;
 }
 .doc-detail{
@@ -151,6 +155,7 @@ a {
     /* border: 1px solid red; */
     padding: 60px;
     align-items: center;
+    display: flex;
 }
 .Slides-img{
     width: 200px;
@@ -166,6 +171,8 @@ a {
     background-color: azure;
     align-items: center;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 .Slides-detail{
     width: 300px;
@@ -264,8 +271,9 @@ input{
     width: 100%;
     height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    
     /* border: 1px solid rgb(17, 3, 3); */
 }
 
