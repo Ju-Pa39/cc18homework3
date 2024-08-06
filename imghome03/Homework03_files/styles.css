@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+.container-nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px gray solid; */
+}
+
+.nav{
+    background-color: rgba(245, 245, 245, 0.856);
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu2 {
+    display: flex;
+}
+
+.menu3 {
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin: 1px;
+}
+
+.menu2 li{
+    list-style: none;
+    margin: 1rem;
+}
+.menu3 li{
+    list-style: none;
+    margin: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.t1{
+    font-weight: bold;
+}
+.box-head{
+    padding: 35px;
+    font-size: 40px;
+}
+
+.flexbox {
+    border: 1px rgb(212, 4, 4) solid;
+    padding: 10px;
+    
+}
+
+.box-doc{
+    border: 1px rgb(230, 229, 237) solid;
+    box-sizing: border-box;
+    /* width: 50%; */
+    width: 700px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(128, 128, 128, 0.305);
+}
+
+.icon-delete{
+    width: 200px;
+    height: 100px;
+    /* border: 1px solid red; */
+    padding: 60px;
+    align-items: center;
+}
+.doc-img{
+    width: 200px;
+    height: 180px;
+    background-color: skyblue ;
+    padding: 50px;
+    top: -10px;
+    border-radius: 20px;
+}
+.icon-blue{
+    width: 30px;
+    height: 30px;
+    background-color: azure;
+    align-items: center;
+    border-radius: 5px;
+}
+.doc-detail{
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    line-height: 50px;
+    align-items: center;
+}
+.font-doc{
+    font-size: 20px;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
